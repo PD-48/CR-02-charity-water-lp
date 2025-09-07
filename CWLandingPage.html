@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>charity: water</title>
+  <style>
+    /* Global styles */
+    body {
+      margin: 0;
+      font-family: Proxima Nova, Arial, sans-serif;
+      color: #333;
+      background: #f8f9fa;
+    }
+
+    header {
+      background: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #eee;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: #ffc907; /* charity: water yellow */
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .menu {
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 30px;
+      background: radial-gradient(circle at top left, #8BD1CB, #f3dd8e);
+    }
+
+    .hero-content {
+      flex: 1;
+      padding-right: 20px;
+      max-width: 600px;
+    }
+
+    .hero-content h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+
+    .hero-content .tagline {
+      background: #2e9df7;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+
+    .hero-content .donate-btn {
+      display: inline-block;
+      background: #FFC907;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    .hero-content .donate-btn:hover {
+      background: #FFC907;
+    }
+
+    /* Hero Image */
+    .hero img {
+      flex: 1;
+      max-width: 500px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+      .hero-content {
+        padding-right: 0;
+      }
+      .hero img {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>charity: water</h1>
+    <div class="menu">☰</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>$10 = Clean Water = A Changed Life</h2>
+      <div class="tagline">A single $10 donation is all it takes to bring clean, safe drinking water to one person.</div><br>
+      <a href="#" class="donate-btn">DONATE TODAY</a>
+    </div>
+    <img src="image/Zimbabwe.jpg" alt="Smiling child with clean water">
+  </section>
+
+</body>
+</html>
